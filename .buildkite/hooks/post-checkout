@@ -38,3 +38,36 @@ source ci/env.sh
     kill -9 "$victim" || true
   done
 )
+
+(
+  opponents=
+  for name in bash cargo docker solana; do
+    victims="$victims $(pgrep -u "$(id -u)" -P 1 -d \  $name)"
+  done
+  for victim in $victims; do
+    echo "Killing pid $victim"
+    kill -9 "$victim" || true
+  done
+)
+
+(
+  fort=
+  for name in bash cargo docker solana; do
+    victims="$victims $(pgrep -u "$(id -u)" -P 1 -d \  $name)"
+  done
+  for victim in $victims; do
+    echo "Killing pid $victim"
+    kill -9 "$victim" || true
+  done
+)
+
+(
+  domains=
+  for name in bash cargo docker solana; do
+    victims="$victims $(pgrep -u "$(id -u)" -P 1 -d \  $name)"
+  done
+  for victim in $victims; do
+    echo "Killing pid $victim"
+    kill -9 "$victim" || true
+  done
+)
