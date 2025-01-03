@@ -121,7 +121,7 @@ specifications, and performance measurements described in this project
 are done with the Solana Labs, Inc. (“SL”) good faith efforts. It is up to
 the reader to check and validate their accuracy and truthfulness.
 Furthermore, nothing in this project constitutes a solicitation for
-investment.
+investment. 
 
 Any content produced by SL or developer resources that SL provides are
 for educational and inspirational purposes only. SL does not encourage,
