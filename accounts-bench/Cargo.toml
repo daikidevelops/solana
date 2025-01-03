@@ -23,3 +23,10 @@ targets = ["x86_64-unknown-linux-gnu"]
 
 [features]
 dev-context-only-utils = []
+
+version = { workspace = true }
+authors = { workspace = true }
+repository = { workspace = true }
+homepage = { workspace = true }
+license = { workspace = true }
+edition = { workspace = true }
